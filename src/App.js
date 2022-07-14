@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
-  return <h1>hello world</h1>;
+  return <Sidebar />;
 }
 
 export default App;
