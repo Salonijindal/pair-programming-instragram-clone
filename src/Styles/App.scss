@@ -1,0 +1,31 @@
+@use "./variables";
+
+body {
+    background-color: variables.$background-white;
+    font-family: variables.$font;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    min-width: fit-content
+
+}
+
+main {
+    background-color: variables.$background-grey;
+    margin-top: 60px;
+
+    .container {
+        display: flex;
+        justify-content: left;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+}
+
+a {
+    text-decoration: none;
+    color: variables.$primary-link;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
