@@ -99,6 +99,107 @@ const users = [
     name: "Bugs Bunny",
     username: "Albuquerque",
   },
+  {
+    id: 21,
+    name: "Ethel Jackson",
+    username: "EJ",
+  },
+
+  {
+    id: 22,
+    name: "Angela Chapman",
+    username: "Ang_Chap",
+  },
+  {
+    id: 23,
+    name: "Barbara Simpson",
+    username: "B_Simp",
+  },
+  {
+    id: 24,
+    name: "Bob Charles",
+    username: "Charles_b0b",
+  },
+  {
+    id: 25,
+    name: "Simon Chow",
+    username: "Chow_Mein",
+  },
+  {
+    id: 26,
+    name: "SpongeBob",
+    username: "PatricksBFF",
+  },
+  {
+    id: 27,
+    name: "Paul Sprouse",
+    username: "NotColeSprouse",
+  },
+  {
+    id: 28,
+    name: "Nicole Smith",
+    username: "Vampire.LOVER",
+  },
+  {
+    id: 29,
+    name: "Sarah Craft",
+    username: "Ilovecraftdinner",
+  },
+  {
+    id: 30,
+    name: "Karen Kim",
+    username: "KK__",
+  },
+  {
+    id: 31,
+    name: "John Hopkins",
+    username: "likethehospital",
+  },
+  {
+    id: 32,
+    name: "Sally Thumbsberg",
+    username: "SallyT",
+  },
+  {
+    id: 33,
+    name: "Jacky Chan",
+    username: "notbrucelee",
+  },
+  {
+    id: 34,
+    name: "Laura Neil",
+    username: "L-Neil",
+  },
+  {
+    id: 35,
+    name: "Lily Boyl",
+    username: "lily",
+  },
+  {
+    id: 36,
+    name: "Peter Parker",
+    username: "spiderman",
+  },
+  {
+    id: 37,
+    name: "Anne Gilbert",
+    username: "greenAnne",
+  },
+  {
+    id: 38,
+    name: "Prince Schmidt",
+    username: "P_192",
+  },
+  {
+    id: 39,
+    name: "Chance Cook",
+    username: "notdanielcook",
+  },
+  {
+    id: 40,
+    name: "Harry Lee",
+    username: "H.Lee",
+  },
 ];
 
 export default users;
