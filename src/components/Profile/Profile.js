@@ -1,7 +1,6 @@
 import "./Profile.scss";
 import React from "react";
 import users from "../../data/users";
-import saloniImage from "../../assets/images/saloni-jindal.jpg";
 import ProfileIcon from "../ProfileIcon/ProfileIcon";
 const Profile = (props) => {
   const {
@@ -20,7 +19,19 @@ const Profile = (props) => {
     : users[Math.floor(Math.random() * users.length)].username;
   return (
     <div className="profile">
-      <ProfileIcon />
+      <ProfileIcon
+        iconSize={iconSize}
+        storyBorder={storyBorder}
+        image={image}
+      />
+      {accountName ||
+        (caption && !hideAccountName && (
+          <div className="textContainer">
+            <span className="accountName">{accountName}</span>
+            <span className={`caption ${captionSize}`}>{caption}</span>
+          </div>
+        ))}
+      <a href="/">{urlText}</a>
     </div>
   );
 };

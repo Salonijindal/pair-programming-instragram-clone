@@ -1,0 +1,40 @@
+@use "./variables";
+
+.storyBorder {
+    padding: 2px;
+    background: linear-gradient(
+        200deg,
+        variables.$gradient-one 25%,
+        variables.$gradient-two 50%,
+        variables.$gradient-three 75%,
+        variables.$gradient-four 100%
+    );
+    border-radius: 50%;
+}
+
+.profile {
+    border-radius: 50%;
+    border: 2px solid variables.$background-white;
+    display: block;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &.small {
+        width: 28px;
+        height: 28px;
+        object-fit: cover;
+        
+    }
+
+    &.medium {
+        width: 35px;
+        height: 35px;
+    }
+
+    &.big {
+        width: 60px;
+        height: 60px;
+    }
+}
