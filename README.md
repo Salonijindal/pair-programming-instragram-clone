@@ -1,10 +1,10 @@
 # Instagram-Clone
 
-This project was created by Chelsia Tong and Saloni Jindal at BrainStation 2022
+This project was created by Chelsia Tong and Saloni Jindal at BrainStation 2022. Please check out our code in the Develop Branch.
 
 ## Description
 
-For an assignment, we had the idea to create a simple instagram clone within 24 hours with another student in BrainStation CS Bootcamp. Although we have little functionality, we put in a lot of effort given the short deadline of this project. Check it out! 
+For an assignment, we had the idea to create a simple instagram clone within 24 hours in the BrainStation CS Bootcamp. Although we have little functionality, we put in a lot of effort given the short deadline of this project. Check it out! 
 
 ### Developer Roles
 
