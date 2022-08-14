@@ -1,0 +1,12 @@
+@use "./variables";
+
+.stories {
+    display: flex;
+    align-content: center;
+    background-color: variables.$background-white;
+    border: 1px solid variables.$primary-border;
+    border-radius: 3px;
+    margin: 2rem 0 1.5rem;
+    height: 7.4rem;
+    overflow: hidden;
+}

@@ -1,0 +1,45 @@
+@use "./variables";
+
+.navigation {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: variables.$background-white;
+  width: 100%;
+  border-bottom: 1px solid variables.$primary-border;
+
+  &__container {
+    padding: 1rem 0 0.9rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    padding: 0 1rem;
+    width: 100px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__search {
+    background: url("../Icons/search.svg") no-repeat 0.8rem;
+    padding: 0.5rem 2rem 0.5rem 2.5rem;
+    opacity: 0.4;
+    margin-right: 0.3rem;
+    border: 1px solid variables.$primary-border;
+    border-radius: 3px;
+    background-color: variables.$background-grey;
+    min-width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: variables.$secondary-font;
+    font-size: 0.85rem;
+    font-weight: 300;
+  }
+}
