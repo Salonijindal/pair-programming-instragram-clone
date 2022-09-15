@@ -4,13 +4,17 @@ This project was created by Chelsia Tong and Saloni Jindal at BrainStation 2022.
 
 ## Description
 
-For an assignment, we had the idea to create a simple instagram clone within 24 hours in the BrainStation CS Bootcamp. Although we have little functionality, we put in a lot of effort given the short deadline of this project. Check it out! 
+For a paired-programming hackathon, we had the idea to clone instagram within 24-hours. Check it out! 
+
+## Deployed Site
+
+https://blooming-woodland-37579.herokuapp.com/
 
 ### Developer Roles
 
-Chelsia Tong - Full-Stack
+Chelsia Tong - Front-End
 
-Saloni Jindal - Full-Stack
+Saloni Jindal - Front-End
 
 ### Sample Images
 
@@ -21,6 +25,8 @@ Saloni Jindal - Full-Stack
 #### Contact Us!
 
 ##### Chelsia Tong 
+  Portfolio: http://chelsiatong-portfolio.netlify.app 
+
   LinkedIn: https://www.linkedin.com/in/chelsia-tong
   
   Git-Hub: https://github.com/chelsiatong
